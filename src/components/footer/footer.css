@@ -1,0 +1,20 @@
+.footer
+{
+  background: #343a40;
+  padding: 10px 10px;
+  overflow: hidden;
+  letter-spacing: 0.5px;
+}
+.contact
+{
+  text-align: right;
+  float: right;
+}
+.contact a:not(:last-child)
+{
+  margin-right: 15px;
+}
+.contact img
+{
+  max-width: 20px;
+}

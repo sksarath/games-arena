@@ -1,0 +1,29 @@
+header
+{
+  display: block;
+  background: #212529;
+  color: #FFF;
+  padding: 12px 20px;
+}
+.logo
+{
+  max-width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.heading
+{
+  color: #FFF;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 0 0 15px;
+}
+
+@media only screen and (max-width:768px)
+{
+  .header
+  {
+    text-align: center;
+  } 
+}

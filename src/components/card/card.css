@@ -1,0 +1,94 @@
+.indiv-card
+{
+  display: block;
+  padding: 20px 20px;
+  min-width: 350px;
+  max-width: 350px;
+  border-radius: 2px;
+  background: #fafafa;
+  margin: 10px 20px 30px 20px;
+  position: relative;
+  /* box-shadow: 0 3px 6px 0 #cfcfcf; */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.indiv-card a
+{
+  text-decoration: none;
+  transform: all 0.2s ease;
+}
+.indiv-card a:hover
+{
+  opacity: 0.7;
+}
+.img-holder
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #495057;
+  width: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-holder img
+{
+  max-width: 50px;
+  margin: auto;
+}
+.content-holder
+{
+  padding-left: 100px;
+}
+.game-title
+{
+  margin: 0;
+  padding: 0;
+  color: #495057;
+}
+.gray-text
+{
+  color: #495057;
+  font-size: 16px;
+}
+.black-text
+{
+  color: #212529;
+}
+.green-text
+{
+  color: #37b24d;
+}
+.red-text
+{
+  color: #f03e3e;
+}
+.comm-spacing
+{
+  padding: 8px 0 0 0;
+}
+.rating
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 6px;
+  background: linear-gradient(left,#b2f2bb 0%, #2f9e44 100%);
+}
+.card-label
+{
+
+}
+
+@media only screen and (max-width:768px)
+{
+  .indiv-card
+  {
+    width: 100%;
+    max-width: none;
+    margin: 10px 0;
+  }
+}
